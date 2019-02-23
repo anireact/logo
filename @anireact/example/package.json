@@ -1,0 +1,35 @@
+{
+    "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://t.me/miyaokamarina)",
+    "bugs": "https://github.com/anireact/themed/issues?q=is:issue+label:@anireact/example",
+    "description": "An example app with anireact logo.",
+    "homepage": "https://github.com/anireact/themed/tree/master/@anireact/example",
+    "license": "MIT",
+    "main": "dist/main.js",
+    "name": "@anireact/example",
+    "repository": "anireact/logo",
+    "private": true,
+    "scripts": {
+        "start": "webpack-dev-server --mode development"
+    },
+    "version": "1.0.0-wip.1",
+    "dependencies": {
+        "@anireact/logo": "^1.0.0-wip.1",
+        "@anireact/prelude": "^1.0.0-wip.5",
+        "@babel/runtime": "^7.3.1",
+        "core-js": "^2.6.5",
+        "react": "^16.8.3",
+        "react-dom": "^16.8.3",
+        "styled-jsx": "^3.2.1"
+    },
+    "devDependencies": {
+        "@types/react": "^16.8.4",
+        "@types/react-dom": "^16.8.2",
+        "@types/styled-jsx": "^2.2.8",
+        "babel-loader": "^8.0.5",
+        "html-webpack-plugin": "^3.2.0",
+        "source-map-loader": "^0.2.4",
+        "webpack": "^4.29.5",
+        "webpack-cli": "^3.2.3",
+        "webpack-dev-server": "^3.2.0"
+    }
+}
