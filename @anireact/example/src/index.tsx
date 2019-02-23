@@ -2,6 +2,7 @@ import { Logo } from '@anireact/logo';
 import React, { useState } from 'react';
 import { render } from 'react-dom';
 
+// eslint-disable-next-line max-lines-per-function
 const Demo = () => {
     const [color, setColor] = useState('black' as 'black' | 'white');
     const [shape, setShape] = useState(undefined as undefined | 'rounded' | 'circle');

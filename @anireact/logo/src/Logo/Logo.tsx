@@ -9,6 +9,7 @@ export interface Logo {
     readonly shape?: 'rounded' | 'circle';
 }
 
+// eslint-disable-next-line max-lines-per-function
 export const Logo = ({ className, size, color, shape }: Logo) => {
     const bg = color === 'black' ? hsl(0, 0, 6.25) : hsl(0, 0, 93.75);
     const fg = color === 'black' ? '#fff' : '#000';

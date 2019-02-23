@@ -16,7 +16,7 @@
         "prepublishOnly": "yarn run clean && yarn run build"
     },
     "types": "dist/index.d.ts",
-    "version": "1.0.0-wip.1",
+    "version": "1.0.0-wip.2",
     "dependencies": {
         "@anireact/hsl": "^1.0.0-wip.2",
         "@anireact/prelude": "^1.0.0-wip.5",
@@ -24,7 +24,8 @@
         "core-js": "^2.6.5"
     },
     "peerDependencies": {
-        "react": "^16.8.3"
+        "react": "^16.8.3",
+        "styled-jsx": "^3.2.1"
     },
     "devDependencies": {
         "@types/react": "^16.8.4",
